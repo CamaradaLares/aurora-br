@@ -1,0 +1,91 @@
+base_model: '/run/media/labuer/hd2tb/all-models/Hermes-models/Nous-Hermes-llama-2-7b' #/run/media/labuer/hd2tb/all-models/wizardlm/WizardCoder-Python-13B-V1.0 # /run/media/labuer/hd2tb/all-models/cyber-sec-models/CyberBase-13b
+base_model_config: '/run/media/labuer/hd2tb/all-models/Hermes-models/Nous-Hermes-llama-2-7b' # /run/media/labuer/hd2tb/all-models/wizardlm/WizardCoder-Python-13B-V1.0 # /run/media/labuer/hd2tb/all-models/cyber-sec-models/CyberBase-13b
+model_type: LlamaForCausalLM
+tokenizer_type: LlamaTokenizer
+is_llama_derived_model: true
+
+trust_remote_code: true
+# use_fast option for tokenizer loading from_pretrained, default to True
+tokenizer_use_fast: True
+# Whether to use the legacy tokenizer setting, defaults to True
+tokenizer_legacy: False
+
+load_in_8bit: false
+load_in_4bit: true
+strict: false
+
+datasets:
+  - path: /run/media/labuer/nvme1tb/llama_models/llama-like/openllama/baize-openllama/communism-datasets/all-data/split-todos-artigos-limpos-v7.json #/run/media/labuer/nvme1tb/llama_models/llama-like/openllama/baize-openllama/communism-datasets/all-data/jornais-livros-full.json
+    type: completion
+dataset_prepared_path: last_run_prepared
+val_set_size: 0
+output_dir: ./comunismo-br-hermes-7b-llama2-lm-head-cleaner
+
+adapter: qlora
+lora_model_dir:
+
+sequence_len: 4096
+#max_packed_sequence_len: 4096
+lora_r: 128
+lora_alpha: 16
+lora_dropout: 0.05
+lora_target_modules:
+  - q_proj
+  - v_proj
+  - k_proj
+  - o_proj
+  - gate_proj
+  - down_proj
+  - up_proj
+  - lm_head
+  - wte
+  - embed_tokens
+#lora_target_modules:
+lora_modules_to_save:
+  - wte
+  - embed_tokens
+  - lm_head
+#lora_target_linear: true
+lora_fan_in_fan_out:
+
+wandb_project: comunismo-br-hermes-7b-llama2-lm-head
+wandb_watch:
+wandb_run_id:
+wandb_log_model:
+
+gradient_accumulation_steps: 2
+micro_batch_size: 2
+num_epochs: 1
+optimizer: paged_adamw_8bit
+lr_scheduler: cosine
+learning_rate: 0.000015
+
+train_on_inputs: false
+group_by_length: false
+bf16: true
+fp16: false
+tf32: false
+
+gradient_checkpointing: true
+early_stopping_patience:
+resume_from_checkpoint:
+local_rank:
+logging_steps: 1
+#xformers_attention: true
+flash_attention: true
+
+#max_steps: 5
+warmup_steps: 100
+#eval_steps: 50
+save_steps: 500
+save_total_limit: 10
+debug:
+deepspeed:
+weight_decay: 0.0
+fsdp:
+fsdp_config:
+#special_tokens:
+#  bos_token: "<s>"
+#  eos_token: "</s>"
+#  unk_token: "<unk>"
+#  pad_token: "<unk>"
