@@ -1,5 +1,5 @@
-base_model: '/run/media/labuer/hd2tb/all-models/Hermes-models/Nous-Hermes-llama-2-7b' #/run/media/labuer/hd2tb/all-models/wizardlm/WizardCoder-Python-13B-V1.0 # /run/media/labuer/hd2tb/all-models/cyber-sec-models/CyberBase-13b
-base_model_config: '/run/media/labuer/hd2tb/all-models/Hermes-models/Nous-Hermes-llama-2-7b' # /run/media/labuer/hd2tb/all-models/wizardlm/WizardCoder-Python-13B-V1.0 # /run/media/labuer/hd2tb/all-models/cyber-sec-models/CyberBase-13b
+base_model: 'Nous-Hermes-llama-2-7b' 
+base_model_config: 'Nous-Hermes-llama-2-7b'
 model_type: LlamaForCausalLM
 tokenizer_type: LlamaTokenizer
 is_llama_derived_model: true
@@ -15,7 +15,7 @@ load_in_4bit: true
 strict: false
 
 datasets:
-  - path: /run/media/labuer/nvme1tb/llama_models/llama-like/openllama/baize-openllama/communism-datasets/all-data/split-todos-artigos-limpos-v7.json #/run/media/labuer/nvme1tb/llama_models/llama-like/openllama/baize-openllama/communism-datasets/all-data/jornais-livros-full.json
+  - path: ./split-todos-artigos-limpos-v7.json
     type: completion
 dataset_prepared_path: last_run_prepared
 val_set_size: 0
