@@ -1,0 +1,32 @@
+1693618927331	geckodriver	INFO	Listening on 127.0.0.1:43113
+1693618927377	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "58273" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileN6O6dr"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693618927605	Marionette	INFO	Marionette enabled
+1693618927608	Marionette	INFO	Listening on port 40705
+WebDriver BiDi listening on ws://127.0.0.1:58273
+Read port: 40705
+1693618927783	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=0.671272) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileN6O6dr/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58273/devtools/browser/6d2badd3-ed1e-4170-a8af-c5b6b2986517
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1693619839318	Marionette	INFO	Stopped listening on port 40705
+1693621959737	geckodriver	INFO	Listening on 127.0.0.1:42809
+1693621959783	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "36581" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilevvCg9j"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693621960018	Marionette	INFO	Marionette enabled
+1693621960020	Marionette	INFO	Listening on port 42169
+WebDriver BiDi listening on ws://127.0.0.1:36581
+Read port: 42169
+1693621960202	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=0.680961) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilevvCg9j/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:36581/devtools/browser/2fd8ab0e-3a23-485c-acf0-e66204511085
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1693623010847	Marionette	INFO	Stopped listening on port 42169

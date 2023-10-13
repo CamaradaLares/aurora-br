@@ -1,0 +1,15 @@
+1693605551182	geckodriver	INFO	Listening on 127.0.0.1:41999
+1693605551229	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "49697" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile2B2ZSM"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693605551454	Marionette	INFO	Marionette enabled
+1693605551457	Marionette	INFO	Listening on port 42891
+WebDriver BiDi listening on ws://127.0.0.1:49697
+Read port: 42891
+1693605551671	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=0.648018) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2B2ZSM/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49697/devtools/browser/1e0f2f38-6cd2-4822-b5fc-33a167aca561
+1693605639678	Marionette	INFO	Stopped listening on port 42891

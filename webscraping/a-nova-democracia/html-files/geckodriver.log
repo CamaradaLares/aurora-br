@@ -1,0 +1,247 @@
+1693600249415	geckodriver	INFO	Listening on 127.0.0.1:33927
+1693600249461	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "58507" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile1cuBM8"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693600249704	Marionette	INFO	Marionette enabled
+1693600249706	Marionette	INFO	Listening on port 46253
+Read port: 46253
+WebDriver BiDi listening on ws://127.0.0.1:58507
+1693600249808	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=0.677494) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile1cuBM8/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58507/devtools/browser/6a37ad82-be58-4441-a444-f381a0ace2c0
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1693600318114	geckodriver	INFO	Listening on 127.0.0.1:50551
+1693600318160	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "56105" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile5FeABB"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693600318443	Marionette	INFO	Marionette enabled
+1693600318446	Marionette	INFO	Listening on port 42509
+Read port: 42509
+WebDriver BiDi listening on ws://127.0.0.1:56105
+1693600318528	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=0.740559) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile5FeABB/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56105/devtools/browser/2dc5ea10-93bd-420f-9ced-daefd8b6e143
+1693600322804	Marionette	INFO	Stopped listening on port 42509
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1693600371983	geckodriver	INFO	Listening on 127.0.0.1:38405
+1693600372028	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "45967" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileZKXyO4"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693600372244	Marionette	INFO	Marionette enabled
+1693600372247	Marionette	INFO	Listening on port 39019
+WebDriver BiDi listening on ws://127.0.0.1:45967
+Read port: 39019
+1693600372459	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=0.619441) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileZKXyO4/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:45967/devtools/browser/921259cd-f1d2-467b-8a27-8b03772341a7
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1693600793044	Marionette	INFO	Stopped listening on port 39019
+1693600916344	geckodriver	INFO	Listening on 127.0.0.1:38825
+1693600916389	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "56533" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileW7wnvT"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693600916612	Marionette	INFO	Marionette enabled
+1693600916615	Marionette	INFO	Listening on port 32811
+WebDriver BiDi listening on ws://127.0.0.1:56533
+Read port: 32811
+1693600916825	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt (t=0.661918) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileW7wnvT/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56533/devtools/browser/5b03d457-c9cf-40b8-9cc1-a163787c7d69
+JavaScript error: https://anovademocracia.com.br/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.15.3, line 2: ChunkLoadError: Loading chunk 357 failed.
+(error: https://anovademocracia.com.br/wp-content/plugins/elementor/assets/js/text-editor.2c35aafbe5bf0e127950.bundle.min.js)
+JavaScript error: https://anovademocracia.com.br/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.15.3, line 2: ChunkLoadError: Loading chunk 357 failed.
+(error: https://anovademocracia.com.br/wp-content/plugins/elementor/assets/js/text-editor.2c35aafbe5bf0e127950.bundle.min.js)
+JavaScript error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.15.1, line 2: ChunkLoadError: Loading chunk 985 failed.
+(error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/load-more.064e7e640e7ef9c3fc30.bundle.min.js)
+JavaScript error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.15.1, line 2: ChunkLoadError: Loading chunk 149 failed.
+(error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/loop.a9bed2dcd86eddf71249.bundle.min.js)
+JavaScript error: https://anovademocracia.com.br/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.15.3, line 2: ChunkLoadError: Loading chunk 357 failed.
+(error: https://anovademocracia.com.br/wp-content/plugins/elementor/assets/js/text-editor.2c35aafbe5bf0e127950.bundle.min.js)
+JavaScript error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.15.1, line 2: ChunkLoadError: Loading chunk 985 failed.
+(error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/load-more.064e7e640e7ef9c3fc30.bundle.min.js)
+JavaScript error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.15.1, line 2: ChunkLoadError: Loading chunk 149 failed.
+(error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/loop.a9bed2dcd86eddf71249.bundle.min.js)
+JavaScript error: https://anovademocracia.com.br/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.15.3, line 2: ChunkLoadError: Loading chunk 357 failed.
+(error: https://anovademocracia.com.br/wp-content/plugins/elementor/assets/js/text-editor.2c35aafbe5bf0e127950.bundle.min.js)
+JavaScript error: https://anovademocracia.com.br/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.15.3, line 2: ChunkLoadError: Loading chunk 357 failed.
+(error: https://anovademocracia.com.br/wp-content/plugins/elementor/assets/js/text-editor.2c35aafbe5bf0e127950.bundle.min.js)
+JavaScript error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.15.1, line 2: ChunkLoadError: Loading chunk 50 failed.
+(error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/popup.483b906ddaa1af17ff14.bundle.min.js)
+JavaScript error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.15.1, line 2: ChunkLoadError: Loading chunk 50 failed.
+(error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/popup.483b906ddaa1af17ff14.bundle.min.js)
+JavaScript error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.15.1, line 2: ChunkLoadError: Loading chunk 50 failed.
+(error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/popup.483b906ddaa1af17ff14.bundle.min.js)
+JavaScript error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.15.1, line 2: ChunkLoadError: Loading chunk 50 failed.
+(error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/popup.483b906ddaa1af17ff14.bundle.min.js)
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+JavaScript error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.15.1, line 2: ChunkLoadError: Loading chunk 50 failed.
+(error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/popup.483b906ddaa1af17ff14.bundle.min.js)
+JavaScript error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.15.1, line 2: ChunkLoadError: Loading chunk 50 failed.
+(error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/popup.483b906ddaa1af17ff14.bundle.min.js)
+JavaScript error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.15.1, line 2: ChunkLoadError: Loading chunk 50 failed.
+(error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/popup.483b906ddaa1af17ff14.bundle.min.js)
+JavaScript error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.15.1, line 2: ChunkLoadError: Loading chunk 50 failed.
+(error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/popup.483b906ddaa1af17ff14.bundle.min.js)
+JavaScript error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.15.1, line 2: ChunkLoadError: Loading chunk 50 failed.
+(error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/popup.483b906ddaa1af17ff14.bundle.min.js)
+JavaScript error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.15.1, line 2: ChunkLoadError: Loading chunk 50 failed.
+(error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/popup.483b906ddaa1af17ff14.bundle.min.js)
+JavaScript error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.15.1, line 2: ChunkLoadError: Loading chunk 50 failed.
+(error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/popup.483b906ddaa1af17ff14.bundle.min.js)
+JavaScript error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.15.1, line 2: ChunkLoadError: Loading chunk 50 failed.
+(error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/popup.483b906ddaa1af17ff14.bundle.min.js)
+JavaScript error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.15.1, line 2: ChunkLoadError: Loading chunk 149 failed.
+(error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/loop.a9bed2dcd86eddf71249.bundle.min.js)
+JavaScript error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.15.1, line 2: ChunkLoadError: Loading chunk 149 failed.
+(error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/loop.a9bed2dcd86eddf71249.bundle.min.js)
+JavaScript error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.15.1, line 2: ChunkLoadError: Loading chunk 985 failed.
+(error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/load-more.064e7e640e7ef9c3fc30.bundle.min.js)
+JavaScript error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.15.1, line 2: ChunkLoadError: Loading chunk 50 failed.
+(error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/popup.483b906ddaa1af17ff14.bundle.min.js)
+JavaScript error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.15.1, line 2: ChunkLoadError: Loading chunk 50 failed.
+(error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/popup.483b906ddaa1af17ff14.bundle.min.js)
+JavaScript error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.15.1, line 2: ChunkLoadError: Loading chunk 50 failed.
+(error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/popup.483b906ddaa1af17ff14.bundle.min.js)
+JavaScript error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.15.1, line 2: ChunkLoadError: Loading chunk 50 failed.
+(error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/popup.483b906ddaa1af17ff14.bundle.min.js)
+JavaScript error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.15.1, line 2: ChunkLoadError: Loading chunk 50 failed.
+(error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/popup.483b906ddaa1af17ff14.bundle.min.js)
+JavaScript error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.15.1, line 2: ChunkLoadError: Loading chunk 50 failed.
+(error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/popup.483b906ddaa1af17ff14.bundle.min.js)
+JavaScript error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.15.1, line 2: ChunkLoadError: Loading chunk 50 failed.
+(error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/popup.483b906ddaa1af17ff14.bundle.min.js)
+JavaScript error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.15.1, line 2: ChunkLoadError: Loading chunk 50 failed.
+(error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/popup.483b906ddaa1af17ff14.bundle.min.js)
+JavaScript error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.15.1, line 2: ChunkLoadError: Loading chunk 50 failed.
+(error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/popup.483b906ddaa1af17ff14.bundle.min.js)
+JavaScript error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.15.1, line 2: ChunkLoadError: Loading chunk 50 failed.
+(error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/popup.483b906ddaa1af17ff14.bundle.min.js)
+JavaScript error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.15.1, line 2: ChunkLoadError: Loading chunk 42 failed.
+(error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/nav-menu.3347cc64f9b3d71f7f0c.bundle.min.js)
+JavaScript error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.15.1, line 2: ChunkLoadError: Loading chunk 50 failed.
+(error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/popup.483b906ddaa1af17ff14.bundle.min.js)
+JavaScript error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.15.1, line 2: ChunkLoadError: Loading chunk 50 failed.
+(error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/popup.483b906ddaa1af17ff14.bundle.min.js)
+JavaScript error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.15.1, line 2: ChunkLoadError: Loading chunk 50 failed.
+(error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/popup.483b906ddaa1af17ff14.bundle.min.js)
+JavaScript error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.15.1, line 2: ChunkLoadError: Loading chunk 50 failed.
+(error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/popup.483b906ddaa1af17ff14.bundle.min.js)
+JavaScript error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.15.1, line 2: ChunkLoadError: Loading chunk 50 failed.
+(error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/popup.483b906ddaa1af17ff14.bundle.min.js)
+JavaScript error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.15.1, line 2: ChunkLoadError: Loading chunk 50 failed.
+(error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/popup.483b906ddaa1af17ff14.bundle.min.js)
+JavaScript error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.15.1, line 2: ChunkLoadError: Loading chunk 50 failed.
+(error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/popup.483b906ddaa1af17ff14.bundle.min.js)
+JavaScript error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.15.1, line 2: ChunkLoadError: Loading chunk 50 failed.
+(error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/popup.483b906ddaa1af17ff14.bundle.min.js)
+JavaScript error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.15.1, line 2: ChunkLoadError: Loading chunk 50 failed.
+(error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/popup.483b906ddaa1af17ff14.bundle.min.js)
+JavaScript error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.15.1, line 2: ChunkLoadError: Loading chunk 50 failed.
+(error: https://anovademocracia.com.br/wp-content/plugins/elementor-pro/assets/js/popup.483b906ddaa1af17ff14.bundle.min.js)
+1693605971170	Marionette	INFO	Stopped listening on port 32811
