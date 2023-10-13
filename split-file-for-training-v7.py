@@ -12,7 +12,7 @@ def tokenize_and_chunk(text, tokenizer, block_size, min_tokens, pbar, carry_over
     else:
         current_chunk = []
         
-    # Remove any <s> tokens from the beginning of the current chunk
+
     current_chunk = [token for token in current_chunk if tokenizer.decode([token]).strip() != '<s>' or tokenizer.decode([token]).strip() != '</s>' ]
     
     current_token_count = len(current_chunk)
@@ -72,15 +72,15 @@ def tokenize_and_save(filename, output_filename, tokenizer, block_size, min_toke
     with open(output_filename, 'w', encoding='utf-8') as f:
         json.dump(sorted_text_chunks, f, ensure_ascii=False)
 
-# Argument parsing code remains the same
+
 
 parser = argparse.ArgumentParser(description='Split file into chunks for training.')
 parser.add_argument('--filename', type=str, required=True, help='Input filename')
 parser.add_argument('--output_filename', type=str, required=True, help='Output filename')
 parser.add_argument('--tokenizer', type=str, default='llama', help='Tokenizer to use (default: llama)')
-parser.add_argument('--block_size', type=int, default=1024, help='Maximum number of tokens in each chunk (default: 1024)')
+parser.add_argument('--block_size', type=int, default=1024, help='Maximum number of tokens in each chunk (default: 4096)')
 parser.add_argument('--min_tokens', type=int, default=50, help='Minimum number of tokens in each chunk (default: 50)')
-parser.add_argument('--num_threads', type=int, default=4, help='Number of threads to use for tokenization (default: 4)')
+
 
 args = parser.parse_args()
 
