@@ -15,16 +15,18 @@ Modelo lora <a href="https://huggingface.co/chenuneris/br-news-prototype">br-new
 
 TODOs:
 
+- Efetuar o mesmo finetuning com qlora no modelo Mistral 7B.
+
 - Aumentar o dataset para 1 bilhão de tokens. (Atual possui ~100 milhões de tokens)
 
-- Adicionar os seguintes sites de noticias no dataset atual:
-
-    - ICL News Letter
-    - Outraspalavras
-    - thetricontinental
-    - emdefesadocomunismo
-    - lavrapalavra
-    - MST - biblioteca-da-questao-agraria
+    - Adicionar os seguintes sites de noticias no dataset atual:
+    
+        - ICL News Letter
+        - Outraspalavras
+        - thetricontinental
+        - emdefesadocomunismo
+        - lavrapalavra
+        - MST - biblioteca-da-questao-agraria
   
-- Desenvolver um script para limpar livros.
-  - Adicionar livros marxistas em portugues.
+    - Desenvolver um script para limpar livros.
+      - Adicionar livros marxistas em portugues.
