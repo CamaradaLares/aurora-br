@@ -19,12 +19,12 @@ TODOs:
 
 - Adicionar os seguintes sites de noticias no dataset atual:
 
-    ICL News Letter
-    Outraspalavras
-    thetricontinental
-    emdefesadocomunismo
-    lavrapalavra
-    MST - biblioteca-da-questao-agraria
+    - ICL News Letter
+    - Outraspalavras
+    - thetricontinental
+    - emdefesadocomunismo
+    - lavrapalavra
+    - MST - biblioteca-da-questao-agraria
   
 - Desenvolver um script para limpar livros.
   - Adicionar livros marxistas em portugues.
